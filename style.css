@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Initial background color (fade-in color) */
+    background-color: #14C814; /* Light blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 1s ease-in, background-color 2s ease-in;
+}
+
+body.fade-in {
+    opacity: 1;
+    /* Final background color after fade-in */
+    background-color: #b2ebf2; /* A slightly darker shade of blue */
+}
+
+h1 {
+    color: #00796b; /* Dark teal */
+}
+
+p {
+    color: #455a64; /* Dark grey */
+}
